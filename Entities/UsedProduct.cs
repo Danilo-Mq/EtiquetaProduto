@@ -5,10 +5,7 @@ namespace /*Insira aqui o nome do seu namespace*/.Entities
     class UsedProduct : Product
     {
         public DateTime ManufactureDate { get; set; }
-        public UsedProduct()
-        {
-
-        }
+        public UsedProduct(){}
 
         public UsedProduct(string name, double price, DateTime manufactureDate) : base (name, price)
         {
@@ -24,9 +21,5 @@ namespace /*Insira aqui o nome do seu namespace*/.Entities
                 + ManufactureDate.ToString("dd/MM/yyyy")
                 + ")";
         }
-
-
-
-
     }
 }
