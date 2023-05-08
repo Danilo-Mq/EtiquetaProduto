@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace \*Insira aqui o nome do seu namespace*\.Entities
+namespace /*Insira aqui o nome do seu namespace*/.Entities
 {
     class ImportedProduct : Product
     {
