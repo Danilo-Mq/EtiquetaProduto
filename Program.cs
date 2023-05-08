@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Seção9_Exercicio_4.Entities;
 
-namespace Seção9_Exercicio_4
+namespace /*Insira aqui o nome do seu namespace*/
 {
     class Program
     {
