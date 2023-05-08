@@ -10,11 +10,7 @@ namespace /*Insira aqui o nome do seu namespace*/.Entities
         public String Name { get; set; }
         public Double Price { get; set; }
         
-
-        public Product()
-        {
-
-        }
+        public Product(){}
 
         public Product(string name, double price)
         {
@@ -28,8 +24,5 @@ namespace /*Insira aqui o nome do seu namespace*/.Entities
                 + " $ "
                 + Price.ToString("F2", CultureInfo.InvariantCulture);
         }
-
-
-
     }
 }
