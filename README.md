@@ -1,4 +1,4 @@
-# EtiquetaProduto
+# Etiqueta Produto
 
 Neste programa estamos realizando a leitura dos dados de N produtos (N fornecido pelo usuário). Ao final, mostrar a etiqueta de preço de cada produto na mesma ordem em que foram digitados.
 <br></br>
