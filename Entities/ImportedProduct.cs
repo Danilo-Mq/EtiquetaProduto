@@ -6,10 +6,8 @@ namespace /*Insira aqui o nome do seu namespace*/.Entities
     {
 
         public Double CustomsFee { get; set; }
-        public ImportedProduct()
-        {
-
-        }
+        public ImportedProduct(){}
+        
         public ImportedProduct(string name, double price, double customsFee) : base (name, price)
         {
             CustomsFee = customsFee;
@@ -29,6 +27,5 @@ namespace /*Insira aqui o nome do seu namespace*/.Entities
                 + CustomsFee.ToString("F2", CultureInfo.InvariantCulture)
                 + ")";
         }
-
     }
 }
