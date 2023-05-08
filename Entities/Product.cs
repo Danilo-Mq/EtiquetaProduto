@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace Seção9_Exercicio_4.Entities
+namespace /*Insira aqui o nome do seu namespace*/.Entities
 {
     class Product
     {
